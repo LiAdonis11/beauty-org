@@ -25,15 +25,15 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#0D0D0D]/80 border-b border-white/5">
+      <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/90 border-b border-gray-200 shadow-sm">
         <div className="max-w-[1200px] mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#22c55e] to-[#84cc16] flex items-center justify-center">
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#16a34a] to-[#22c55e] flex items-center justify-center">
               <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
               </svg>
             </div>
-            <span className="font-semibold text-xl">HairGrow Nature</span>
+            <span className="font-semibold text-xl text-gray-800">HairGrow Nature</span>
           </div>
           <a
             href="https://shopee.com"
@@ -49,15 +49,15 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-gradient min-h-screen flex items-center justify-center pt-20">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <div className="fade-target inline-block px-4 py-2 rounded-full bg-[#22c55e]/10 border border-[#22c55e]/20 text-[#22c55e] text-sm mb-6">
+          <div className="fade-target inline-block px-4 py-2 rounded-full bg-[#22c55e]/10 border border-[#22c55e]/20 text-[#16a34a] text-sm mb-6">
             🌿 100% Natural Formula
           </div>
-          <h1 className="fade-target text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="fade-target text-5xl md:text-7xl font-bold mb-6 leading-tight text-gray-900">
             Natural Hair Growth Spray
             <br />
-            <span className="text-[#22c55e]">For Stronger, Healthier Hair</span>
+            <span className="text-[#16a34a]">For Stronger, Healthier Hair</span>
           </h1>
-          <p className="fade-target text-lg text-[#9CA3AF] max-w-2xl mx-auto mb-10">
+          <p className="fade-target text-lg text-gray-600 max-w-2xl mx-auto mb-10">
             A powerful herbal scalp treatment made from organic ingredients. 
             Prevent hair fall and stimulate growth naturally.
           </p>
@@ -72,7 +72,7 @@ export default function Home() {
             </a>
             <a
               href="#benefits"
-              className="px-8 py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-colors inline-block"
+              className="px-8 py-4 rounded-full border border-gray-300 text-gray-700 hover:bg-gray-100 transition-colors inline-block"
             >
               Learn More
             </a>
@@ -81,24 +81,24 @@ export default function Home() {
       </section>
 
       {/* Benefits Section */}
-      <section id="benefits" className="py-24 bg-[#0D0D0D]">
+      <section id="benefits" className="py-24 bg-white">
         <div className="max-w-[1200px] mx-auto px-6">
-          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4">
-            Why Choose <span className="text-[#22c55e]">Our Spray?</span>
+          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
+            Why Choose <span className="text-[#16a34a]">Our Spray?</span>
           </h2>
-          <p className="fade-target text-[#9CA3AF] text-center mb-16 max-w-xl mx-auto">
+          <p className="fade-target text-gray-600 text-center mb-16 max-w-xl mx-auto">
             A natural solution for hair care backed by ancient herbal wisdom
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="fade-target feature-card p-8 rounded-2xl">
               <div className="w-14 h-14 rounded-xl bg-[#22c55e]/10 flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-7 h-7 text-[#16a34a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Prevents <span className="text-[#22c55e]">Hair Fall</span></h3>
-              <p className="text-[#9CA3AF]">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Prevents <span className="text-[#16a34a]">Hair Fall</span></h3>
+              <p className="text-gray-600">
                 Strengthens hair roots and reduces breakage. Say goodbye to excessive hair shedding.
               </p>
             </div>
@@ -109,20 +109,20 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Promotes <span className="text-[#84cc16]">Growth</span></h3>
-              <p className="text-[#9CA3AF]">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Promotes <span className="text-[#84cc16]">Growth</span></h3>
+              <p className="text-gray-600">
                 Stimulates dormant hair follicles and encourages new growth for thicker, fuller hair.
               </p>
             </div>
 
             <div className="fade-target feature-card p-8 rounded-2xl">
-              <div className="w-14 h-14 rounded-xl bg-emerald-500/10 flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 rounded-xl bg-emerald-100 flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Nourishes <span className="text-emerald-500">Scalp</span></h3>
-              <p className="text-[#9CA3AF]">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Nourishes <span className="text-emerald-600">Scalp</span></h3>
+              <p className="text-gray-600">
                 Rich in vitamins and minerals that nourish the scalp and improve overall hair health.
               </p>
             </div>
@@ -131,12 +131,12 @@ export default function Home() {
       </section>
 
       {/* Ingredients Section */}
-      <section className="py-24 bg-[#1A1A2E]/30">
+      <section className="py-24 bg-[#f0fdf4]">
         <div className="max-w-[1200px] mx-auto px-6">
-          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4">
+          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
             Natural <span className="text-[#84cc16]">Ingredients</span>
           </h2>
-          <p className="fade-target text-[#9CA3AF] text-center mb-12 max-w-xl mx-auto">
+          <p className="fade-target text-gray-600 text-center mb-12 max-w-xl mx-auto">
             Each ingredient is carefully selected for its proven hair benefits
           </p>
 
@@ -149,12 +149,12 @@ export default function Home() {
               { name: "Fenugreek Seeds", benefit: "Prevents hair fall" },
               { name: "Cloves", benefit: "Promotes scalp health" },
             ].map((item, i) => (
-              <div key={i} className="fade-target bg-[#1A1A2E]/50 p-6 rounded-xl border border-white/5 hover:border-[#22c55e]/30 transition-all">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#22c55e] to-[#84cc16] flex items-center justify-center mb-4 mx-auto w-fit">
+              <div key={i} className="fade-target bg-white p-6 rounded-xl border border-gray-200 hover:border-[#22c55e]/30 transition-all">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#16a34a] to-[#22c55e] flex items-center justify-center mb-4 mx-auto w-fit">
                   <span className="text-xl">🌿</span>
                 </div>
-                <h3 className="text-lg font-semibold text-center mb-2">{item.name}</h3>
-                <p className="text-[#9CA3AF] text-center text-sm">{item.benefit}</p>
+                <h3 className="text-lg font-semibold text-center mb-2 text-gray-900">{item.name}</h3>
+                <p className="text-gray-600 text-center text-sm">{item.benefit}</p>
               </div>
             ))}
           </div>
@@ -162,50 +162,50 @@ export default function Home() {
       </section>
 
       {/* How to Use Section */}
-      <section className="py-24 bg-[#0D0D0D]">
+      <section className="py-24 bg-white">
         <div className="max-w-[1200px] mx-auto px-6">
-          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4">
-            How to <span className="text-[#22c55e]">Use</span>
+          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
+            How to <span className="text-[#16a34a]">Use</span>
           </h2>
-          <p className="fade-target text-[#9CA3AF] text-center mb-16 max-w-xl mx-auto">
+          <p className="fade-target text-gray-600 text-center mb-16 max-w-xl mx-auto">
             Simple steps for best results
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="fade-target text-center">
               <div className="w-16 h-16 rounded-full bg-[#22c55e]/10 flex items-center justify-center mb-6 mx-auto">
-                <span className="text-2xl font-bold text-[#22c55e]">1</span>
+                <span className="text-2xl font-bold text-[#16a34a]">1</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Shake Well</h3>
-              <p className="text-[#9CA3AF]">Shake the bottle well before each use to mix the natural ingredients.</p>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Shake Well</h3>
+              <p className="text-gray-600">Shake the bottle well before each use to mix the natural ingredients.</p>
             </div>
 
             <div className="fade-target text-center">
               <div className="w-16 h-16 rounded-full bg-[#84cc16]/10 flex items-center justify-center mb-6 mx-auto">
                 <span className="text-2xl font-bold text-[#84cc16]">2</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Spray on Scalp</h3>
-              <p className="text-[#9CA3AF]">Spray directly on clean, dry scalp. Part hair if needed for better coverage.</p>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Spray on Scalp</h3>
+              <p className="text-gray-600">Spray directly on clean, dry scalp. Part hair if needed for better coverage.</p>
             </div>
 
             <div className="fade-target text-center">
-              <div className="w-16 h-16 rounded-full bg-emerald-500/10 flex items-center justify-center mb-6 mx-auto">
-                <span className="text-2xl font-bold text-emerald-500">3</span>
+              <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center mb-6 mx-auto">
+                <span className="text-2xl font-bold text-emerald-600">3</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Massage & Leave</h3>
-              <p className="text-[#9CA3AF]">Gently massage for 2-3 minutes. Leave overnight for best results.</p>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Massage & Leave</h3>
+              <p className="text-gray-600">Gently massage for 2-3 minutes. Leave overnight for best results.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 bg-[#0D0D0D]">
+      <section className="py-24 bg-[#f0fdf4]">
         <div className="max-w-[1200px] mx-auto px-6">
-          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4">
-            What Our <span className="text-[#22c55e]">Customers Say</span>
+          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
+            What Our <span className="text-[#16a34a]">Customers Say</span>
           </h2>
-          <p className="fade-target text-[#9CA3AF] text-center mb-16 max-w-xl mx-auto">
+          <p className="fade-target text-gray-600 text-center mb-16 max-w-xl mx-auto">
             Thousands of satisfied customers transformed their hair
           </p>
 
@@ -215,12 +215,12 @@ export default function Home() {
               { name: "Rachel Tan", rating: 5, text: "Was skeptical at first but the results are amazing. Hair fall has reduced significantly!" },
               { name: "Amanda Lee", rating: 4, text: "Love the natural ingredients. No side effects and my scalp feels so healthy." },
             ].map((testimonial, i) => (
-              <div key={i} className="fade-target bg-[#1A1A2E]/50 p-8 rounded-2xl border border-white/5">
+              <div key={i} className="fade-target bg-white p-8 rounded-2xl border border-gray-200">
                 <div className="flex gap-1 mb-4">
                   {Array.from({ length: 5 }).map((_, j) => (
                     <svg
                       key={j}
-                      className={`w-5 h-5 ${j < testimonial.rating ? "text-[#84cc16]" : "text-gray-600"}`}
+                      className={`w-5 h-5 ${j < testimonial.rating ? "text-[#84cc16]" : "text-gray-300"}`}
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -228,8 +228,8 @@ export default function Home() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-[#9CA3AF] mb-4">&quot;{testimonial.text}&quot;</p>
-                <p className="font-semibold">{testimonial.name}</p>
+                <p className="text-gray-600 mb-4">&quot;{testimonial.text}&quot;</p>
+                <p className="font-semibold text-gray-900">{testimonial.name}</p>
               </div>
             ))}
           </div>
@@ -237,12 +237,12 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-b from-[#0D0D0D] to-[#1A1A2E]">
+      <section className="py-24 bg-white">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <h2 className="fade-target text-4xl md:text-5xl font-bold mb-6">
-            Start Your Hair Growth <span className="text-[#22c55e]">Journey Today</span>
+          <h2 className="fade-target text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+            Start Your Hair Growth <span className="text-[#16a34a]">Journey Today</span>
           </h2>
-          <p className="fade-target text-lg text-[#9CA3AF] max-w-xl mx-auto mb-10">
+          <p className="fade-target text-lg text-gray-600 max-w-xl mx-auto mb-10">
             Join thousands who have transformed their hair naturally. Order now!
           </p>
           <a
@@ -250,7 +250,6 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="fade-target shopee-btn inline-block px-10 py-5 rounded-full text-xl font-bold text-white"
-            style={{ background: "linear-gradient(135deg, #22c55e 0%, #84cc16 100%)" }}
           >
             Buy Now on Shopee
           </a>
@@ -258,17 +257,17 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 bg-[#0D0D0D] border-t border-white/5">
+      <footer className="py-12 bg-gray-50 border-t border-gray-200">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-[#22c55e] to-[#84cc16] flex items-center justify-center">
+            <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-[#16a34a] to-[#22c55e] flex items-center justify-center">
               <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
               </svg>
             </div>
-            <span className="font-semibold">HairGrow Nature</span>
+            <span className="font-semibold text-gray-800">HairGrow Nature</span>
           </div>
-          <p className="text-[#9CA3AF] text-sm">
+          <p className="text-gray-500 text-sm">
             © 2026 HairGrow Nature. All rights reserved.
           </p>
         </div>
