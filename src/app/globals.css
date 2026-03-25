@@ -2,9 +2,9 @@
 
 :root {
   --bg-primary: #0D0D0D;
-  --color-primary: #FF6B35;
+  --color-primary: #22c55e;
   --color-secondary: #1A1A2E;
-  --color-accent: #F7C94B;
+  --color-accent: #84cc16;
   --text-primary: #FFFFFF;
   --text-muted: #9CA3AF;
 }
@@ -36,10 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(255, 107, 53, 0.4);
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.4);
   }
   50% {
-    box-shadow: 0 0 40px rgba(255, 107, 53, 0.8);
+    box-shadow: 0 0 40px rgba(34, 197, 94, 0.8);
   }
 }
 
@@ -63,31 +63,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .shopee-btn {
-  background: linear-gradient(135deg, #FF6B35 0%, #FF8F5E 100%);
+  background: linear-gradient(135deg, #22c55e 0%, #84cc16 100%);
   transition: all 0.3s ease;
 }
 
 .shopee-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
+  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.4);
 }
 
 .hero-gradient {
   background: 
-    radial-gradient(ellipse at 20% 50%, rgba(255, 107, 53, 0.15) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, rgba(247, 201, 75, 0.1) 0%, transparent 40%),
+    radial-gradient(ellipse at 20% 50%, rgba(34, 197, 94, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(132, 204, 22, 0.1) 0%, transparent 40%),
     radial-gradient(ellipse at 60% 80%, rgba(26, 26, 46, 0.8) 0%, transparent 50%),
     var(--bg-primary);
 }
 
 .feature-card {
   background: linear-gradient(145deg, rgba(26, 26, 46, 0.6) 0%, rgba(13, 13, 13, 0.8) 100%);
-  border: 1px solid rgba(255, 107, 53, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.1);
   transition: all 0.3s ease;
 }
 
 .feature-card:hover {
-  border-color: rgba(255, 107, 53, 0.3);
+  border-color: rgba(34, 197, 94, 0.3);
   transform: translateY(-4px);
 }
 
