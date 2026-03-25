@@ -41,7 +41,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="shopee-btn px-5 py-2.5 rounded-full text-sm font-medium text-white"
           >
-            Beli di Shopee
+            Buy on Shopee
           </a>
         </div>
       </header>
@@ -50,16 +50,15 @@ export default function Home() {
       <section className="hero-gradient min-h-screen flex items-center justify-center pt-20">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
           <div className="fade-target inline-block px-4 py-2 rounded-full bg-[#FF6B35]/10 border border-[#FF6B35]/20 text-[#FF6B35] text-sm mb-6">
-            ✨ Teknologi Terbaru 2026
+            ✨ Latest Technology 2026
           </div>
           <h1 className="fade-target text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Smart Home Hub
             <br />
-            <span className="text-[#FF6B35]">Untuk Rumah Modern</span>
+            <span className="text-[#FF6B35]">For Modern Homes</span>
           </h1>
           <p className="fade-target text-lg text-[#9CA3AF] max-w-2xl mx-auto mb-10">
-            Kontrol seluruh perangkat rumah Anda dengan satu sentuhan. 
-            Lebih cerdas, lebih hemat, lebih aman.
+            Control all your home devices with one touch. Smarter, more efficient, safer.
           </p>
           <div className="fade-target flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -68,13 +67,13 @@ export default function Home() {
               rel="noopener noreferrer"
               className="shopee-btn px-8 py-4 rounded-full text-lg font-semibold text-white inline-block"
             >
-              Beli di Shopee
+              Buy on Shopee
             </a>
             <a
               href="#features"
               className="px-8 py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-colors inline-block"
             >
-              Pelajari Lebih Lanjut
+              Learn More
             </a>
           </div>
         </div>
@@ -84,10 +83,10 @@ export default function Home() {
       <section id="features" className="py-24 bg-[#0D0D0D]">
         <div className="max-w-[1200px] mx-auto px-6">
           <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4">
-            Fitur <span className="text-[#FF6B35]">Unggulan</span>
+            Key <span className="text-[#FF6B35]">Features</span>
           </h2>
           <p className="fade-target text-[#9CA3AF] text-center mb-16 max-w-xl mx-auto">
-            Didesain dengan teknologi mutakhir untuk memberikan pengalaman terbaik
+            Designed with cutting-edge technology to deliver the best experience
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -97,9 +96,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Koneksi Stabil</h3>
+              <h3 className="text-xl font-semibold mb-3">Stable <span className="text-[#FF6B35]">Connection</span></h3>
               <p className="text-[#9CA3AF]">
-                Dukungan WiFi 6 dan Bluetooth 5.2 untuk koneksi cepat dan stabil ke semua perangkat Anda.
+                WiFi 6 and Bluetooth 5.2 support for fast and stable connection to all your devices.
               </p>
             </div>
 
@@ -109,9 +108,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Kontrol Suara</h3>
+              <h3 className="text-xl font-semibold mb-3">Voice <span className="text-[#F7C94B]">Control</span></h3>
               <p className="text-[#9CA3AF]">
-                Kompatibel dengan Google Assistant dan Alexa. Kontrol rumah hanya dengan perintah suara.
+                Compatible with Google Assistant and Alexa. Control your home with just your voice.
               </p>
             </div>
 
@@ -121,9 +120,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Hemat Energi</h3>
+              <h3 className="text-xl font-semibold mb-3">Energy <span className="text-green-500">Saving</span></h3>
               <p className="text-[#9CA3AF]">
-                AI learning mengenali pola penggunaan dan secara otomatis menghemat energi hingga 30%.
+                AI learning recognizes usage patterns and automatically saves up to 30% energy.
               </p>
             </div>
           </div>
@@ -134,10 +133,10 @@ export default function Home() {
       <section className="py-24 bg-[#1A1A2E]/30">
         <div className="max-w-[1200px] mx-auto px-6">
           <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4">
-            Tampilan <span className="text-[#F7C94B]">Produk</span>
+            Product <span className="text-[#F7C94B]">Gallery</span>
           </h2>
           <p className="fade-target text-[#9CA3AF] text-center mb-12 max-w-xl mx-auto">
-            Desain elegan yang cocok untuk любой интерьер rumah modern
+            Elegant design that fits perfectly in any modern home interior
           </p>
 
           <div className="fade-target flex gap-6 overflow-x-auto pb-4 snap-x">
@@ -163,17 +162,17 @@ export default function Home() {
       <section className="py-24 bg-[#0D0D0D]">
         <div className="max-w-[1200px] mx-auto px-6">
           <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4">
-            Apa Kata <span className="text-[#FF6B35]">Pelanggan</span>
+            What Our <span className="text-[#FF6B35]">Customers Say</span>
           </h2>
           <p className="fade-target text-[#9CA3AF] text-center mb-16 max-w-xl mx-auto">
-            Ribuan pelanggan puas dengan produk kami
+            Thousands of satisfied customers love our product
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { name: "Budi Santoso", rating: 5, text: "Produk ini benar-benar mengubah cara saya mengontrol rumah. Sangat mudah digunakan!" },
-              { name: "Siti Rahayu", rating: 5, text: "Kualitasnya luar biasa. Servis也很 cepat dan responsif. Sangat direkomendasikan!" },
-              { name: "Ahmad Pratama", rating: 4, text: "Desainya elegan dan fiturnya lengkap. Worth it untuk harga segini." },
+              { name: "John Smith", rating: 5, text: "This product completely changed how I control my home. So easy to use!" },
+              { name: "Sarah Johnson", rating: 5, text: "Amazing quality. Fast delivery and great customer service. Highly recommended!" },
+              { name: "Mike Chen", rating: 4, text: "Elegant design and full features. Worth every penny." },
             ].map((testimonial, i) => (
               <div key={i} className="fade-target bg-[#1A1A2E]/50 p-8 rounded-2xl border border-white/5">
                 <div className="flex gap-1 mb-4">
@@ -200,10 +199,10 @@ export default function Home() {
       <section className="py-24 bg-gradient-to-b from-[#0D0D0D] to-[#1A1A2E]">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
           <h2 className="fade-target text-4xl md:text-5xl font-bold mb-6">
-            Siap Tingkatkan <span className="text-[#FF6B35]">Kehidupan Anda?</span>
+            Ready to Upgrade Your <span className="text-[#FF6B35]">Lifestyle?</span>
           </h2>
           <p className="fade-target text-lg text-[#9CA3AF] max-w-xl mx-auto mb-10">
-            Jangan lewatkan kesempatan ini. Stok terbatas!
+            Don&apos;t miss out. Limited stock available!
           </p>
           <a
             href="https://shopee.com"
@@ -211,7 +210,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="fade-target shopee-btn inline-block px-10 py-5 rounded-full text-xl font-bold text-white animate-pulse"
           >
-            Beli Sekarang di Shopee
+            Buy Now on Shopee
           </a>
         </div>
       </section>
