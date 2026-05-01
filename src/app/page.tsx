@@ -231,9 +231,9 @@ export default function Home() {
                }
              ].map((product, i) => (
                <div key={i} className="fade-target bg-white p-6 rounded-xl border border-gray-200 hover:shadow-lg transition-all">
-                 <div className="aspect-w-4 aspect-h-3 w-full rounded-lg bg-gray-200 flex items-center justify-center mb-4">
-                   <div className="text-gray-500 text-sm">Product Image</div>
-                 </div>
+                  <div className="aspect-w-4 aspect-h-3 w-full rounded-lg border-2 border-dashed border-gray-300 flex items-center justify-center mb-4">
+                    <div className="text-gray-400 text-sm">Product Image Placeholder</div>
+                  </div>
                  <h3 className="text-lg font-semibold text-center mb-2 text-gray-900">{product.name}</h3>
                  <p className="text-gray-600 text-center text-sm mb-4">{product.description}</p>
                  <div className="space-y-2 text-center text-sm">
