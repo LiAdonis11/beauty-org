@@ -161,45 +161,109 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How to Use Section */}
-      <section className="py-24 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
-            How to <span className="text-[#16a34a]">Use</span>
-          </h2>
-          <p className="fade-target text-gray-600 text-center mb-16 max-w-xl mx-auto">
-            Simple steps for best results
-          </p>
+       {/* How to Use Section */}
+       <section className="py-24 bg-white">
+         <div className="max-w-[1200px] mx-auto px-6">
+           <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
+             How to <span className="text-[#16a34a]">Use</span>
+           </h2>
+           <p className="fade-target text-gray-600 text-center mb-16 max-w-xl mx-auto">
+             Simple steps for best results
+           </p>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="fade-target text-center">
-              <div className="w-16 h-16 rounded-full bg-[#22c55e]/10 flex items-center justify-center mb-6 mx-auto">
-                <span className="text-2xl font-bold text-[#16a34a]">1</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Shake Well</h3>
-              <p className="text-gray-600">Shake the bottle well before each use to mix the natural ingredients.</p>
-            </div>
+           <div className="grid md:grid-cols-3 gap-8">
+             <div className="fade-target text-center">
+               <div className="w-16 h-16 rounded-full bg-[#22c55e]/10 flex items-center justify-center mb-6 mx-auto">
+                 <span className="text-2xl font-bold text-[#16a34a]">1</span>
+               </div>
+               <h3 className="text-xl font-semibold mb-3 text-gray-900">Shake Well</h3>
+               <p className="text-gray-600">Shake the bottle well before each use to mix the natural ingredients.</p>
+             </div>
 
-            <div className="fade-target text-center">
-              <div className="w-16 h-16 rounded-full bg-[#84cc16]/10 flex items-center justify-center mb-6 mx-auto">
-                <span className="text-2xl font-bold text-[#84cc16]">2</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Spray on Scalp</h3>
-              <p className="text-gray-600">Spray directly on clean, dry scalp. Part hair if needed for better coverage.</p>
-            </div>
+             <div className="fade-target text-center">
+               <div className="w-16 h-16 rounded-full bg-[#84cc16]/10 flex items-center justify-center mb-6 mx-auto">
+                 <span className="text-2xl font-bold text-[#84cc16]">2</span>
+               </div>
+               <h3 className="text-xl font-semibold mb-3 text-gray-900">Spray on Scalp</h3>
+               <p className="text-gray-600">Spray directly on clean, dry scalp. Part hair if needed for better coverage.</p>
+             </div>
 
-            <div className="fade-target text-center">
-              <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center mb-6 mx-auto">
-                <span className="text-2xl font-bold text-emerald-600">3</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Massage & Leave</h3>
-              <p className="text-gray-600">Gently massage for 2-3 minutes. Leave overnight for best results.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+             <div className="fade-target text-center">
+               <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center mb-6 mx-auto">
+                 <span className="text-2xl font-bold text-emerald-600">3</span>
+               </div>
+               <h3 className="text-xl font-semibold mb-3 text-gray-900">Massage & Leave</h3>
+               <p className="text-gray-600">Gently massage for 2-3 minutes. Leave overnight for best results.</p>
+             </div>
+           </div>
+         </div>
+       </section>
 
-      {/* Testimonials Section */}
+       {/* Products Section */}
+       <section className="py-24 bg-[#f0fdf4]">
+         <div className="max-w-[1200px] mx-auto px-6">
+           <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
+             Our <span className="text-[#16a34a]">Products</span>
+           </h2>
+           <p className="fade-target text-gray-600 text-center mb-16 max-w-xl mx-auto">
+             Choose the right formula for your hair needs
+           </p>
+
+           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+             {[
+               {
+                 name: "Hair Growth Spray Standard",
+                 price: "$29.99",
+                 description: "Our original formula for daily hair growth maintenance",
+                 features: ["Rosemary & Castor Oil", "Clinically Tested", "30 Day Supply"]
+               },
+               {
+                 name: "Hair Growth Spray Premium",
+                 price: "$49.99",
+                 description: "Advanced formula with extra potent ingredients for faster results",
+                 features: ["Double Strength", "Added Biotin", "60 Day Supply"]
+               },
+               {
+                 name: "Hair Growth Spray Bundle",
+                 price: "$79.99",
+                 description: "Complete hair care system with spray and scalp massager",
+                 features: ["Spray + Massager", "Free Shipping", "90 Day Supply"]
+               }
+             ].map((product, i) => (
+               <div key={i} className="fade-target bg-white p-6 rounded-xl border border-gray-200 hover:shadow-lg transition-all">
+                 <div className="aspect-w-4 aspect-h-3 w-full rounded-lg bg-gray-200 flex items-center justify-center mb-4">
+                   <div className="text-gray-500 text-sm">Product Image</div>
+                 </div>
+                 <h3 className="text-lg font-semibold text-center mb-2 text-gray-900">{product.name}</h3>
+                 <p className="text-gray-600 text-center text-sm mb-4">{product.description}</p>
+                 <div className="space-y-2 text-center text-sm">
+                   <p className="font-bold text-gray-900">{product.price}</p>
+                   <div className="flex flex-col items-center space-y-1">
+                     {product.features.map((feature, j) => (
+                       <div key={j} className="flex items-center gap-1 text-gray-600">
+                         <svg className="w-3 h-3 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                         </svg>
+                         <span>{feature}</span>
+                       </div>
+                     ))}
+                   </div>
+                 </div>
+                 <a
+                   href="https://shopee.com"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="w-full shopee-btn px-4 py-2 rounded-full text-sm font-medium text-white"
+                 >
+                   Buy Now
+                 </a>
+               </div>
+             ))}
+           </div>
+         </div>
+       </section>
+
+       {/* Testimonials Section */}
       <section className="py-24 bg-[#f0fdf4]">
         <div className="max-w-[1200px] mx-auto px-6">
           <h2 className="fade-target text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
