@@ -209,27 +209,27 @@ export default function Home() {
              Choose the right formula for your hair needs
            </p>
 
-           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-             {[
-               {
-                 name: "Hair Growth Spray Standard",
-                 price: "$29.99",
-                 description: "Our original formula for daily hair growth maintenance",
-                 features: ["Rosemary & Castor Oil", "Clinically Tested", "30 Day Supply"]
-               },
-               {
-                 name: "Hair Growth Spray Premium",
-                 price: "$49.99",
-                 description: "Advanced formula with extra potent ingredients for faster results",
-                 features: ["Double Strength", "Added Biotin", "60 Day Supply"]
-               },
-               {
-                 name: "Hair Growth Spray Bundle",
-                 price: "$79.99",
-                 description: "Complete hair care system with spray and scalp massager",
-                 features: ["Spray + Massager", "Free Shipping", "90 Day Supply"]
-               }
-             ].map((product, i) => (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                {
+                  name: "Hair Growth Spray 30ml",
+                  price: "$19.99",
+                  description: "Perfect for trying our natural formula - 30ml size",
+                  features: ["30ml Bottle", "Natural Ingredients", "Travel Friendly"]
+                },
+                {
+                  name: "Hair Growth Spray 50ml",
+                  price: "$29.99",
+                  description: "Our most popular size - 50ml for regular use",
+                  features: ["50ml Bottle", "Best Value", "Monthly Supply"]
+                },
+                {
+                  name: "Hair Growth Spray 120ml",
+                  price: "$49.99",
+                  description: "Family size - 120ml for long-term use",
+                  features: ["120ml Bottle", "Family Size", "Save 20%"]
+                }
+              ].map((product, i) => (
                <div key={i} className="fade-target bg-white p-6 rounded-xl border border-gray-200 hover:shadow-lg transition-all">
                   <div className="aspect-w-4 aspect-h-3 w-full rounded-lg border-2 border-dashed border-gray-300 flex items-center justify-center mb-4">
                     <div className="text-gray-400 text-sm">Product Image Placeholder</div>
